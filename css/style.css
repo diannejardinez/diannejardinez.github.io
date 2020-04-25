@@ -1,0 +1,72 @@
+.brand_color {
+	font-size: 1.8em;
+}
+.navbar {
+	background-color: #708090;
+	margin: 20px;
+	padding: 10px;
+}
+nav a {
+	color: white !important;
+	font-size: 1.2em;
+	font-family: Manrope, sans-serif;
+}
+.drop_down_color{
+    font-size: 0.8em;
+}
+
+#home {
+	background:#708090;
+}
+
+body {
+	padding: 10px;
+	margin: 10px;
+	font-family: Manrope, sans-serif;
+	background-color: #EEEEEE;	
+}
+
+#image {
+	display: block;
+    margin-left: auto;
+	margin-top: 8px;
+	position: relative;	
+  }
+
+.img-circle {
+	margin: 1 auto;
+}
+p {
+	margin: 3px;
+}
+
+.footer-p {
+	margin: 20px;
+	padding: 10px;
+}
+
+.column-border {
+	border-radius: 10px;
+}
+
+footer {
+	text-align: center;
+}
+.fa {
+	color: black;
+  	padding: 20px;
+  	font-size: 30px;
+  	width: 30px;
+  	text-decoration: none;
+  	margin: 5px 2px;
+  	border-radius: 50%;
+}
+.fa:hover {
+    opacity: 0.25;
+    background-color: white ;
+}
+.jumbotron {
+	background-color: #f6f5f3;
+	color: 3d3d3f;
+	
+}
