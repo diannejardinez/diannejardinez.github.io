@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Latitude Analysis Dashboard</title>
+<!-- Link to Google Font link for text font -->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+<!-- 	Link to Bootstrap version 3  -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<!-- 	Link to Bootstrap version 4  -->
+<!-- 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+<!-- Link to stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+<!-- Link to FontAwesome Icons -->
+<script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Right navbar doesn't hide when screen gets smaller
+Might have to do the invisible/visble code -->
+<!-- Navigation bar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+<!--       Missing Link-Need homepage link -->
+      <a class="navbar-brand" href="#"><a href="#" class="navbar-brand"> <i class="fas fa-globe-americas"></i> Latitude Analysis Dashboard</a>
+    </div>    
+<!--      Right Navigation bar -->
+      <ul class="nav navbar-nav navbar-right">
+<!--         Dropdown menu -->
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Maximum Temperature</a></li>
+            <li><a href="#">Humidity</a></li>
+            <li><a href="#">Cloudiness</a></li>
+            <li><a href="#">Wind Speed</a></li>
+          </ul>
+        </li>
+<!--         Comparison Link 1 - Missing link-->
+        <li><a href="#">Comparison</a></li>
+<!--         Data Link 2 - Missing Link-->
+        <li><a href="#">Data</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- Outline of container -->
+<!-- Landing Summary Table
+Header title
+Plot title
+Plot Image
+Project summary description
+
+Landing Visulations
+Header title
+Plot images - smaller than the plot image above -->
+
+
+<div class="container">
+	<div class="row">
+		<!-- Landing Summary Table -->
+		<div class="col-md-8 col column1">
+			<h1>Summary: Weather and Latitude </h1>
+			<img id= "mainvisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig1.png?raw=true" alt="Latitude vs Temp graph">
+			<p>Purpose: Analyzing a series of scatter plots to showcase the following relationships to visualize the weather of 500+ cities across the world of varying distance from the equator. Focusing on these general weather parameters: Temperature (F) vs. Latitude, Humidity (%) vs. Latitude, Cloudiness (%) vs. Latitude, and Wind Speed (mph) vs. Latitude.</p>
+		</div>
+		<div class="col-md-4 column2">
+			<h1>Visualizations</h1>
+			<img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig1.png?raw=true" alt="Latitude vs Temp graph">
+			<img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig2.png?raw=true" alt="Latitude vs Humidity graph">
+			<img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig3.png?raw=true" alt="Latitude vs Cloudiness graph">
+			<img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig4.png?raw=true" alt="Latitude vs Wind speed graph">
+		</div>
+		
+	
+
+
+
+
+
+
+
+
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Link to jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Link to Javascript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
