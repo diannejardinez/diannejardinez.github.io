@@ -2,15 +2,101 @@
 <html>
 <head>
 	<title>Cloudiness (%) vs. Latitude</title>
+		<!-- Link to Google Font link for text font -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+	<!-- 	Link to Bootstrap version 3  -->
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<!-- Link to stylesheet -->
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<!-- Link to FontAwesome Icons -->
+	<script src="https://kit.fontawesome.com/2e362d4438.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-<h1>Cloudiness (%) vs. Latitude</h1>
-<h2>Findings and Observations</h2>
+<!-- Navigation bar -->
+<nav class="navbar navbar-default navbar-fixed-top ">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="https://diannejardinez.github.io/Home/index.html"><a href="https://diannejardinez.github.io/Home/index.html" class="navbar-brand"> <i class="fas fa-globe-americas"></i> Latitude Analysis Dashboard</a>
+    </div>  
+
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <!--      Right Navigation bar -->
+      <ul class="nav navbar-nav navbar-right">
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Plots <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="https://diannejardinez.github.io/Plots/plot_maxtemp.html" target="_blank">Maximum Temperature</a></li>
+                <li><a href="https://diannejardinez.github.io/Plots/plot_humidity.html" target="_blank">Humidity</a></li>
+                <li><a href="/Users/diannejardinez/Desktop/diannejardinez.github.io/Plots/plot_cloudiness.html" target="_blank">Cloudiness</a></li>
+                <li><a href="https://diannejardinez.github.io/Plots/plot_windspeed.html" target="_blank">Wind Speed</a></li>
+              </ul>
+          </li>
+        <li><a href="https://diannejardinez.github.io/Comparison/comparison.html" target="_blank">Comparison</a></li>
+        <li><a href="https://diannejardinez.github.io/Data/data.html" target="_blank">Data</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
 
 
-<p>Cloudiness (%) vs. Latitude: Data shows that there are pockets where there is a maximum percent of cloudiness and zero percent of cloudiness. About 0 percent of clouds were areas with a 20° to 60° latitude range and high maximum cloudiness percent were areas with -20° to 0° and 40° to 70° latitude range.</p>
-<img src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig3.png?raw=true" alt="Latitude vs Cloudiness graph">
+<!-- Landing Page -->
 
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-7">
+      <div class="jumbotron">
+        <h1>Cloudiness (%) vs. Latitude</h1>
+        <h2>Findings and Observations</h2>
+        <img id= "mainvisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig3.png?raw=true" alt="Latitude vs Cloudiness graph">
+        <p>Cloudiness (%) vs. Latitude: Data shows that there are pockets where there is a maximum percent of cloudiness and zero percent of cloudiness. About 0 percent of clouds were areas with a 20° to 60° latitude range and high maximum cloudiness percent were areas with -20° to 0° and 40° to 70° latitude range.</p>
+      </div>
+    </div>
+
+		<div class="col-md-5">
+      <div class="jumbotron">
+        <h1>Visualizations</h1>
+        <hr/>
+        <a href="https://diannejardinez.github.io/Plots/plot_maxtemp.html" target="_blank">
+			     <img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig1.png?raw=true" alt="Latitude vs Temp graph" title="Latitude vs Temp graph"></a>
+        <a href="https://diannejardinez.github.io/Plots/plot_humidity.html" target="_blank">
+			     <img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig2.png?raw=true" alt="Latitude vs Humidity graph" title="Latitude vs Humidity graph"></a>
+        <a href="/Users/diannejardinez/Desktop/diannejardinez.github.io/Plots/plot_cloudiness.html" target="_blank">
+			     <img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig3.png?raw=true" alt="Latitude vs Cloudiness graph" title="Latitude vs Cloudiness graph"></a>
+        <a href="https://diannejardinez.github.io/Plots/plot_windspeed.html" target="_blank">
+			     <img id="sidevisual" src="https://github.com/diannejardinez/API-Challenge/blob/master/output_data/fig4.png?raw=true" alt="Latitude vs Wind speed graph" title ="Latitude vs Wind speed graph" ></a>
+          <p><br><br>Select each plot to see further analysis</p>
+      </div>
+		</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Link to jquery -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Link to Javascript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
