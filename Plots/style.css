@@ -20,13 +20,19 @@ html {
 .jumbotron p {
 	font-size: 100%;
 }
+.datajumbotron {
+	background-color: #ffffff;
+	padding: 2rem 2rem;
+    height: 100%;
+    margin-top: 80px;
+}
 #visualcomp {
 /*	width: 40%;*/
 	margin: 1%;
 }
 #visualcomp:hover {
 	opacity: 0.5;
-	border: 1px solid black;
+	border: 1px solid #000000;
 }
 
 #pcomp p {
@@ -44,7 +50,7 @@ html {
 }
 #sidevisual:hover {
 	opacity: 0.5;
-	border: 1px solid black;
+	border: 1px solid #000000;
 }
 
 @media(max-width: 750px) {
