@@ -1,46 +1,50 @@
+
 body {
 	font-family: 'Montserrat', sans-serif;
-	background-color: #f1f1f1;
-/*	width: 100%;*/
+	background: url(https://images.unsplash.com/photo-1580607561669-35b4b34b4bca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+	background-size: cover;
 }
-
-
-
-/*.column1, .column2 {
-	background-color: white;
-	border: 1px solid black;
-}*/
-
+html {
+	height: 100%;
+}
 .jumbotron {
-    background-color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.75);
     padding: 2rem 2rem;
     height: 100%;
     margin-top: 80px;
 }
+.jumbotron h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+.jumbotron p {
+	font-size: 100%;
+}
+#visualcomp {
+/*	width: 40%;*/
+	margin: 1%;
+}
+#visualcomp:hover {
+	opacity: 0.5;
+	border: 1px solid black;
+}
 
+#pcomp p {
+	font-weight: 900;
+	color: #00238b;	
+}
 #mainvisual {
 	float:left;
 	width: 50%;
 }
-
 #sidevisual {
 	width: 40%;
 	float:left;
 /*	margin: 1%;*/
 }
-
 #sidevisual:hover {
 	opacity: 0.5;
 	border: 1px solid black;
-}
-
-.jumbotron h1 {
-	font-size: 30px;
-	font-weight: bold;
-}
-
-.jumbotron p {
-	font-size: 100%;
 }
 
 @media(max-width: 750px) {
