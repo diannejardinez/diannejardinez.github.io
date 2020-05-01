@@ -55,7 +55,8 @@ html {
 }
 /*Image for humid html*/
 #mainvisual_humid{
-	width: 40%;	
+	width: 40%;
+	margin: 20px;
 }
 /*Images for visualization images on right side*/
 #sidevisual {
