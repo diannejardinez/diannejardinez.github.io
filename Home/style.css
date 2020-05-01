@@ -34,8 +34,8 @@ html {
 }
 /*Image for comparison html*/
 #visualcomp {
-/*	width: 40%;*/
 	margin: 1%;
+	margin-bottom: 30px;
 }
 #visualcomp:hover {
 	opacity: 0.5;
@@ -95,8 +95,23 @@ css from https://mdbootstrap.com/docs/jquery/javascript/scroll/*/
 }
 
 @media(max-width: 750px) {
+/*	Navigation bar*/
 	.navvisual {
 	  visibility: hidden;
 	}
+/*	Jumbotron text*/
+	.jumbotron h1, .jumbotron p {
+		padding-left: 30px;
+	}
+	/*	Jumbotron horizontal line*/
+	.jumbotron hr{
+		width: 80%;
+	}
+/*	Images in comparison html*/
+	#visualcomp {
+	width: 90%;
+	margin-bottom: 30px;
+	}
+
 }
 
