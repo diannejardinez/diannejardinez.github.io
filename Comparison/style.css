@@ -47,6 +47,9 @@ html {
 	width: 50%;
 	margin: 20px;
 }
+#mainvisual_humid {
+	width: 40%;	
+}
 #sidevisual {
 	width: 40%;
 /*	float:left;*/
