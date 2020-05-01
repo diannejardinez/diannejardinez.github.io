@@ -20,11 +20,11 @@ html {
 .jumbotron p {
 	font-size: 100%;
 }
-.datajumbotron {
+/*.datajumbotron {
 	background-color: #ffffff;
 	padding: 2rem 2rem;
     height: 100%;
-    margin-top: 80px;
+    margin-top: 80px;*/
 }
 #visualcomp {
 /*	width: 40%;*/
