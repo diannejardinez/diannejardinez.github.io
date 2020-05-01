@@ -9,7 +9,7 @@ html {
 }
 .jumbotron {
     background-color: rgba(255, 255, 255, 0.75);
-    padding: 2rem 2rem;
+/*    padding: 2rem 2rem;*/
     height: 100%;
     margin-top: 80px;
 }
@@ -17,14 +17,17 @@ html {
 	font-size: 30px;
 	font-weight: bold;
 }
+.jumbotron h2 {
+	font-size: 20px;
+}
 .jumbotron p {
 	font-size: 100%;
 }
-/*.datajumbotron {
+.datajumbotron {
 	background-color: #ffffff;
 	padding: 2rem 2rem;
     height: 100%;
-    margin-top: 80px;*/
+    margin-top: 80px;
 }
 #visualcomp {
 /*	width: 40%;*/
@@ -42,11 +45,12 @@ html {
 #mainvisual {
 	float:left;
 	width: 50%;
+	margin: 20px;
 }
 #sidevisual {
 	width: 40%;
-	float:left;
-/*	margin: 1%;*/
+/*	float:left;*/
+	margin: 10px;
 }
 #sidevisual:hover {
 	opacity: 0.5;
