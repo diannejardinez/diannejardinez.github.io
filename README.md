@@ -1,4 +1,4 @@
-# GitHub Pages Projects Webpage
+# GitHub Pages Project Webpage
 
 ### Web Visualization Dashboard
 
