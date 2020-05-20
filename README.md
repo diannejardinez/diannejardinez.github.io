@@ -9,3 +9,5 @@
 
 ### JavaScript DOM D3 Manipulation
 **Webpage:** https://diannejardinez.github.io/JavaScript-DOM-D3-Manipulation/index.html
+
+![](https://github.com/diannejardinez/diannejardinez.github.io/blob/master/JavaScript-DOM-D3-Manipulation/home_page.png)
