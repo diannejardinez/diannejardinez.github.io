@@ -3,68 +3,24 @@
  var ufoData = data;
 
 //////////////////////////////////////////////
-// Populating filter search table DATE options
+// Populating filter search table ALL options
 
-// Select the date element and get the raw HTML node
-var filterOptionDate = d3.select('#filterDate');
+function filteredTableOptions(htmlId, ufoDataKey) {
 
-// Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
-// Make a new array with only unique dates and populate dropdown options with those dates
-var datePopulatedOptions = Array.from(new Set(ufoData.map(item => item.datetime)));
-datePopulatedOptions.forEach(option => filterOptionDate.append('option').attr('value', option).text(option));
-
-//////////////////////////////////////////////
-// from data.js
- var ufoData = data;
-// Populating filter search table CITY options
-
-// Select the date element and get the raw HTML node
-var filterOptionCity = d3.select('#filterCity');
-
-// Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
-// Make a new array with only unique dates and populate dropdown options with those dates
-var cityPopulatedOptions = Array.from(new Set(ufoData.map(item => item.city)));
-cityPopulatedOptions.forEach(option => filterOptionCity.append('option').attr('value', option).text(option));
-
-//////////////////////////////////////////////
-// from data.js
- var ufoData = data;
-// Populating filter search table STATE options
-
-// Select the date element and get the raw HTML node
-var filterOptionState = d3.select('#filterState');
-
-// Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
-// Make a new array with only unique dates and populate dropdown options with those dates
-var statePopulatedOptions = Array.from(new Set(ufoData.map(item => item.state)));
-statePopulatedOptions.forEach(option => filterOptionState.append('option').attr('value', option).text(option));
-
-//////////////////////////////////////////////
-// from data.js
- var ufoData = data;
-// Populating filter search table COUNTRY options
-
-// Select the date element and get the raw HTML node
-var filterOptionCountry = d3.select('#filterCountry');
-
-// Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
-// Make a new array with only unique dates and populate dropdown options with those dates
-var countryPopulatedOptions = Array.from(new Set(ufoData.map(item => item.country)));
-countryPopulatedOptions.forEach(option => filterOptionCountry.append('option').attr('value', option).text(option));
-
-
-//////////////////////////////////////////////
-// from data.js
- var ufoData = data;
-// Populating filter search table SHAPE options
-
-// Select the date element and get the raw HTML node
-var filterOptionShape = d3.select('#filterShape');
-
-// Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
-// Make a new array with only unique dates and populate dropdown options with those dates
-var shapePopulatedOptions = Array.from(new Set(ufoData.map(item => item.shape)));
-shapePopulatedOptions.forEach(option => filterOptionShape.append('option').attr('value', option).text(option));
+  // Select the date element and get the raw HTML node
+  var filterOption = d3.select(htmlId);
+  
+  // Source Link to get unique values from UFO data for dropdown https://appdividend.com/2019/04/11/how-to-get-distinct-values-from-array-in-javascript/
+  // Make a new array with only unique dates and populate dropdown options with those dates
+  var populatedOptions = Array.from(new Set(ufoData.map(ufoDataKey)));
+  populatedOptions.forEach(option => filterOption.append('option').attr('value', option).text(option));
+  }
+  
+filteredTableOptions('#filterDate', (item => item.datetime))
+filteredTableOptions('#filterCity', (item => item.city))
+filteredTableOptions('#filterState', (item => item.state))
+filteredTableOptions('#filterCountry', (item => item.country))
+filteredTableOptions('#filterShape', (item => item.shape)) 
 
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
