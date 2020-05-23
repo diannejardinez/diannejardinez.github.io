@@ -14,6 +14,8 @@ var datePopulatedOptions = Array.from(new Set(ufoData.map(item => item.datetime)
 datePopulatedOptions.forEach(option => filterOptionDate.append('option').attr('value', option).text(option));
 
 //////////////////////////////////////////////
+// from data.js
+ var ufoData = data;
 // Populating filter search table CITY options
 
 // Select the date element and get the raw HTML node
@@ -25,6 +27,8 @@ var cityPopulatedOptions = Array.from(new Set(ufoData.map(item => item.city)));
 cityPopulatedOptions.forEach(option => filterOptionCity.append('option').attr('value', option).text(option));
 
 //////////////////////////////////////////////
+// from data.js
+ var ufoData = data;
 // Populating filter search table STATE options
 
 // Select the date element and get the raw HTML node
@@ -36,6 +40,8 @@ var statePopulatedOptions = Array.from(new Set(ufoData.map(item => item.state)))
 statePopulatedOptions.forEach(option => filterOptionState.append('option').attr('value', option).text(option));
 
 //////////////////////////////////////////////
+// from data.js
+ var ufoData = data;
 // Populating filter search table COUNTRY options
 
 // Select the date element and get the raw HTML node
@@ -48,6 +54,8 @@ countryPopulatedOptions.forEach(option => filterOptionCountry.append('option').a
 
 
 //////////////////////////////////////////////
+// from data.js
+ var ufoData = data;
 // Populating filter search table SHAPE options
 
 // Select the date element and get the raw HTML node
