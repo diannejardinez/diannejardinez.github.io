@@ -39,7 +39,7 @@
     </div>
     <section>
         <div class="container text-center lead">
-            <p>Filter for sighting Date on the left side then select submit. Scroll down to view all results in the main table.</p>
+            <p>Filter for sighting Date on the left side then select submit. Dataset will be reset by selecting a new date or selecting the reset button. Scroll down to view all results in the main table.</p>
         </div>
     </section>
     <!-- Filtered Search table -->
@@ -51,35 +51,11 @@
                             <fieldset>
                             <legend><h3 class="text-danger"><i class="fas fa-filter mr-1"></i>SEARCH</h3></legend>
                             <div class="form-group">
-                            <!-- Source Link for Disabled option: https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default -->
                                 <!-- Date -->
                                 <label for="datetime" class ="text-warning">Date</label>
                                 <select class="form-control" id="filterDate">
-                                <option selected="true" disabled="disabled">Select Date</option>
-                                </select>
-                                <!-- Filtered Search table options -->
-                                <!-- City -->
-                                <label for="city" class ="text-warning">City</label>
-                                <select class="form-control" id="filterCity">
-                                <option selected="true" disabled="disabled">Select City</option>
-                                </select>
-                                <!-- Filtered Search table options -->
-                                <!-- State -->
-                                <label for="state" class ="text-warning">State</label>
-                                <select class="form-control" id="filterState">
-                                <option selected="true" disabled="disabled">Select State</option>
-                                </select>
-                                <!-- Filtered Search table options -->
-                                <!-- Country -->
-                                <label for="country" class ="text-warning">Country</label>
-                                <select class="form-control" id="filterCountry">
-                                <option selected="true" disabled="disabled">Select Country</option>
-                                </select>
-                                <!-- Filtered Search table options -->
-                                <!-- Shape -->
-                                <label for="shape" class ="text-warning">Shape</label>
-                                <select class="form-control" id="filterShape">
-                                <option selected="true" disabled="disabled">Select Shape</option>
+                                <!-- Source Link for Disabled option: https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default -->
+                                <option selected="true" disabled="disabled" id="resetDate">Select Date</option>
                                 </select>
                                 <!-- Filtered Search table options -->
                             </div>
