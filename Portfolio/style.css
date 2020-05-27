@@ -1,0 +1,30 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#header {
+	background: url('https://images.unsplash.com/photo-1529236183275-4fdcf2bc987e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+	min-height:500px;
+	padding-top: 15%;
+	opacity: .9;
+	background-size: cover;
+    background-position: center; 
+	
+}
+#header-statement {
+	min-height:350px;
+	margin-top: -33px;
+	padding-top: 7%;
+	/* background-color: rgb(200, 220, 222) */
+}
+.header-description {
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+	0px 8px 13px rgba(0,0,0,0.1),
+	0px 18px 23px rgba(0,0,0,0.1);
+}
+.carousel-indicators li {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.carousel-indicators .active {
+    background-color: rgba(0, 0, 0, 0.7);
+}
