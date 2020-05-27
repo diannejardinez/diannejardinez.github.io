@@ -8,6 +8,6 @@
 
 
 ### JavaScript DOM D3 Manipulation
-**Webpage:** https://diannejardinez.github.io/JavaScript-DOM-D3-Manipulation/index.html
+**Webpage Level 2:** https://diannejardinez.github.io/JavaScript-DOM-D3-Manipulation/UFO-level-2/index.html
 
-![](https://github.com/diannejardinez/diannejardinez.github.io/blob/master/JavaScript-DOM-D3-Manipulation/home_page_lvl2.png)
+![](https://github.com/diannejardinez/diannejardinez.github.io/blob/master/JavaScript-DOM-D3-Manipulation/UFO-level-1/static/images/home_page_lvl2.png)
