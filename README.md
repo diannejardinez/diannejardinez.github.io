@@ -1,7 +1,8 @@
 # GitHub Pages Project Webpage
 
-## Portfolio 
-**Link**: https://diannejardinez.github.io/Portfolio/
+### Portfolio
+**Webpage**: https://diannejardinez.github.io/Portfolio/index.html
+
 
 ### Web Visualization Dashboard
 
