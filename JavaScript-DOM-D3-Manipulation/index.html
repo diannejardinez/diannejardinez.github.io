@@ -51,11 +51,36 @@
                             <fieldset>
                             <legend><h3 class="text-danger"><i class="fas fa-filter mr-1"></i>SEARCH</h3></legend>
                             <div class="form-group">
+                            <!-- Source Link for Disabled option: https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default -->
+                            <!-- Source Link for onchange Event when selected option is changed: https://www.w3schools.com/tags/ev_onchange.asp -->
                                 <!-- Date -->
                                 <label for="datetime" class ="text-warning">Date</label>
-                                <select class="form-control" id="filterDate">
-                                <!-- Source Link for Disabled option: https://stackoverflow.com/questions/22033922/how-to-show-disable-html-select-option-in-by-default -->
-                                <option selected="true" disabled="disabled" id="resetDate">Select Date</option>
+                                <select class="form-control" id="datetime" onchange="updateFilteredUfoData('datetime', this.value)">
+                                <option selected="true" disabled="disabled">Select Option</option>
+                                </select>
+                                <!-- Filtered Search table options -->
+                                <!-- City -->
+                                <label for="city" class ="text-warning">City</label>
+                                <select class="form-control" id="city" onchange="updateFilteredUfoData('city', this.value)">
+                                <option selected="true" disabled="disabled">Select Option</option>
+                                </select>
+                                <!-- Filtered Search table options -->
+                                <!-- State -->
+                                <label for="state" class ="text-warning">State</label>
+                                <select class="form-control" id="state" onchange="updateFilteredUfoData('state', this.value)">
+                                <option selected="true" disabled="disabled">Select Option</option>
+                                </select>
+                                <!-- Filtered Search table options -->
+                                <!-- Country -->
+                                <label for="country" class ="text-warning">Country</label>
+                                <select class="form-control" id="country" onchange="updateFilteredUfoData('country', this.value)">
+                                <option selected="true" disabled="disabled">Select Option</option>
+                                </select>
+                                <!-- Filtered Search table options -->
+                                <!-- Shape -->
+                                <label for="shape" class ="text-warning">Shape</label>
+                                <select class="form-control" id="shape" onchange="updateFilteredUfoData('shape', this.value)">
+                                <option selected="true" disabled="disabled">Select Option</option>
                                 </select>
                                 <!-- Filtered Search table options -->
                             </div>
@@ -83,6 +108,7 @@
                                 </tr>
                                 </thead>
                                 <!--Table body-->
+                                <!-- Filtered table data -->
                                 <tbody></tbody>
                             </table>
                         </div>
