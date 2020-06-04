@@ -30,5 +30,5 @@
 
 **Webpage:** https://diannejardinez.github.io/Data-Visualization-Dashboard/
 
-![](https://github.com/diannejardinez/Data-Visualization-Dashboard/blob/master/index_lvl1.png)
+![](https://github.com/diannejardinez/Data-Visualization-Dashboard/blob/master/images/index_lvl2.png)
 

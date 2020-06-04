@@ -16,12 +16,12 @@
 </head>
 <body class="bg-light">
 <!--     Jumbotron header -->
-    <section id="header" class="jumbotron text-center bg-info">
+    <section id="header" class="jumbotron text-center bg-danger">
         <h1 class="display-3 font-weight-bold">Biodiversity Dashboard</h1>
         <p class="lead text-white">Use the interactive charts below to explore the Public Science Lab dataset</p>
         <p>Choose a sample participant on the left side and the following data will be shown: </br> 
-            participant demographics, bacteria found, washing frequency, and the relative abundance of </br>
-            different microbial “species” (operational taxonomic units, OTUs) from the selected participant</p>
+            participant demographics, bacteria found, and the relative abundance of different </br>
+            microbial “species” (operational taxonomic units, OTUs) from the selected participant</p>
     </section>
     <div class="container">
         <div class="row">
@@ -50,19 +50,11 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-5">
+            <div class="col-md-8">
                 <div class="card bg-light mb-3">
                     <div class="card-body bg-white">
                             <!-- Bar chart -->
                         <div class="d-flex justify-content-around" id="bar"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card bg-light mb-3">
-                    <div class="card-body bg-white">
-                            <!-- Gauge chart -->
-                        <div class="d-flex justify-content-around" id="gauge"></div>
                     </div>
                 </div>
             </div>
@@ -85,6 +77,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <!-- Linking to JS files -->
-    <script src="bonus.js"></script>
+    <script src="app.js"></script>
 </body>
 </html>
