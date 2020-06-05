@@ -20,12 +20,28 @@
 </head>
 <body>
     <!-- Navigation bar -->
-    <nav class="navbar bg-dark navbar-dark">
+    <!-- <nav class="navbar bg-dark navbar-dark"> -->
      <!-- Navigation bar align with body alignment -->
-        <div class="container">
+        <!-- <div class="container">
             <a href="https://diannejardinez.github.io/Portfolio/index.html" class="navbar-brand"><i class="fas fa-address-card mr-3" ></i>Portfolio</a>
         </div>
-    </nav>
+    </nav> -->
+
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0 fixed-top">
+        <a href="https://diannejardinez.github.io/Portfolio/index.html" class="navbar-brand">PORTFOLIO</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navLinks">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a href="https://diannejardinez.github.io/Portfolio/index.html" class="nav-link">HOME</a>
+                </li>
+            </ul>
+        </div>
+      </nav>
+
+
 <!--     Jumbotron header headline and contact information -->
     <section id="header" class="jumbotron text-center">
         <h1 class="display-4 text-white font-weight-bold header-description">DIANNE JARDINEZ</h1>
@@ -78,8 +94,8 @@
 <!-- Portfolio - GitHub -->
 <!-- Source Link for Card Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600 -->
     <div class="container portfolio-carousel">
-        <h1 class="text-center">GitHub - Portfolio </h1>
-        <p class="text-center"><small>click the arrow buttons below to see what projects I've been up to</small></p>
+        <h1 class="text-center">GitHub - Projects </h1>
+        <p class="text-center"><small>click below to see what projects I've been up to with UC Berkeley</small></p>
         <!--Carousel Wrapper-->
         <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
 
@@ -320,6 +336,81 @@
         <!--/.Carousel Wrapper-->
     </div>
     
+
+<!-- Portfolio - Front End Development -->
+<!-- Source Link for Card Carousel: https://mdbootstrap.com/snippets/jquery/alexpiffero-it/696600 -->
+<div class="container portfolio-carousel mt-5">
+    <h1 class="text-center">Front End Development - Projects </h1>
+    <p class="text-center"><small>click below to see my Front End Development projects</small></p>
+    <!--Carousel Wrapper-->
+    <div id="multi-item-example" class="carousel slide carousel-multi-item" data-ride="carousel">
+
+        <!--Controls-->
+        <div class="controls-top">
+            <a class="btn-floating" href="#multi-item-example" data-slide="prev"><i class="fas fa-chevron-left text-muted"></i></a>
+            <a class="btn-floating" href="#multi-item-example" data-slide="next"><i class="fas fa-chevron-right text-muted"></i></a>
+        </div>
+        <!--/.Controls-->
+    
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+            <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+        </ol>
+        <!--/.Indicators-->
+    
+        <!--Slides-->
+        <div class="carousel-inner" role="listbox">
+    
+        <!--First slide-->
+        <div class="carousel-item active">
+
+            <div class="col-sm-6 col-lg-4 mb-3 d-inline-flex" style="float:left">
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded" >
+                    <img class="card-img-top" src="project_images/Museum_Of_Plants.png" alt="Data Visualization Dashboard Project">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Museum of Plants</h5>
+                        <p class="card-text">Bootstrap 4 HTML/CSS, Javascript Webpage. Using Grid system and Flexbox Utilities</p>
+                        <a href="https://github.com/diannejardinez/Data-Visualization-Dashboard" class="btn btn-outline-success btn-sm">GitHub Repo</a>
+                        <a href="https://diannejardinez.github.io/Data-Visualization-Dashboard/" class="btn btn-outline-danger btn-sm"><i class="fab fa-chrome"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-3 d-inline-flex" style="float:left">
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded" >
+                    <img class="card-img-top" src="project_images/bontanical_garden.png" alt="GitHub JavaScript DOM D3 Manipulation Project">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Bontanical Garden</h5>
+                        <p class="card-text">Webpage with Bootstrap 4 HTML and CSS. Using the Flexbox Utilities</p>
+                        <a href="https://github.com/diannejardinez/javascript-challenge" class="btn btn-outline-success btn-sm">GitHub Repo</a>
+                        <a href="https://diannejardinez.github.io/JavaScript-DOM-D3-Manipulation/UFO-level-2/index.html" class="btn btn-outline-danger btn-sm"><i class="fab fa-chrome"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-4 mb-3 d-inline-flex" style="float:left">
+                <div class="card shadow-sm p-3 mb-5 bg-white rounded" >
+                    <img class="card-img-top" src="project_images/photo_gallery.png" alt="Team Project: ETL">
+                    <div class="card-body">
+                        <h5 class="card-title text-center">Photo Gallery</h5>
+                        <p class="card-text">Webpage with Bootstrap 3 HTML and CSS. Using CSS to style and organize page.</p>
+                        <a href="https://github.com/diannejardinez/ETL-Project" class="btn btn-outline-success btn-sm">GitHub Repo</a>
+                        <a href="https://github.com/diannejardinez/ETL-Project/blob/master/Project%20Report.pdf" class="btn btn-outline-danger btn-sm"><i class="fab fa-chrome"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <!--/.First slide-->
+    </div>
+    <!--/.Slides-->
+</div>
+<!--/.Carousel Wrapper-->
+</div>
+
+
+
+
 
     <!-- Bootstrap jQuery  -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
