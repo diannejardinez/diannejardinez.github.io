@@ -32,3 +32,12 @@
 
 ![](https://github.com/diannejardinez/Data-Visualization-Dashboard/blob/master/images/index_lvl2.png)
 
+
+---
+
+
+### Interactive Visualization Chart
+
+**Webpage:** https://diannejardinez.github.io/D3-Challenge/
+
+![](https://github.com/diannejardinez/D3-Challenge/blob/master/image/index.png)
