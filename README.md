@@ -40,4 +40,4 @@
 
 **Webpage:** https://diannejardinez.github.io/D3-Challenge/
 
-![](https://github.com/diannejardinez/D3-Challenge/blob/master/image/index.png)
+![](https://github.com/diannejardinez/D3-Challenge/blob/master/images/index.png)
