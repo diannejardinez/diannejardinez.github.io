@@ -41,3 +41,18 @@
 **Webpage:** https://diannejardinez.github.io/D3-Challenge/
 
 ![](https://github.com/diannejardinez/D3-Challenge/blob/master/images/index.png)
+
+
+---
+
+
+### Leaflet Interactive Maps
+
+**Webpage:** https://diannejardinez.github.io/leaflet-challenge/Leaflet-Step-2
+
+![](https://github.com/diannejardinez/leaflet-challenge/blob/master/Leaflet-Step-2/images/lvl2.png)
+
+
+
+
+
