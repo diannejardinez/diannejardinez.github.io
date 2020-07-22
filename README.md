@@ -60,7 +60,7 @@
 
 **Tableau Workbook:** [Tableau Public Workbook](https://public.tableau.com/profile/diannejardinez#!/vizhome/UCB-CitiBikeNYC-2020Q1Q2-SummaryReport-Final/CitiBikeSummaryReport-2020-Q1Q2?publish=yes)
 
-![](https://github.com/diannejardinez/diannejardinez.github.io/blob/master/Portfolio/project_images/Citi%20Bike%20NYC-Summary%20Report.gif)
+![](https://github.com/diannejardinez/Tableau-Data-Visualization/blob/master/Citi%20Bike%20NYC-Summary%20Report.gif)
 
 
 ---
