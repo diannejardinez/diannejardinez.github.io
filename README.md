@@ -13,7 +13,7 @@ Here are some takeaways:
 - Started off building my own HTML & CSS page with Bootstrap 4
 - Expanded knowledge of HTML & CSS outside of Bootstrap by learning through a template from HTML5 UP
 - Made a blueprint of the designa I wanted starting out and the finished product 
-- Found free image resources that fit the style I wanted through Stories by Freepik
+- Found free image resources that fit the style I was aiming for through Stories by Freepik
 
 
 **Challenges**
