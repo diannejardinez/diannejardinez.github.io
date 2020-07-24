@@ -5,7 +5,11 @@
 
 
 **Key Takeaways**
-Creating a professional biography/portfolio webpage by using Github Pages as a host!<br> 
+
+
+Creating a professional biography/portfolio webpage by using Github Pages as a host!
+
+
 Here are some takeaways:
 
 **PROCESS/WHAT WENT WELL**
