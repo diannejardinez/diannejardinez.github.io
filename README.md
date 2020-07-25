@@ -12,7 +12,7 @@ Process
 
 - Started with starter HTML code to customize site
 - Moved to a temaplate HTML code from HTML5 UP
-	- ![]()
+	- ![](https://github.com/diannejardinez/diannejardinez.github.io/blob/master/Portfolio/images/bothdraft_pages.png)
 - Used Illustrations for home page from Stories by Freepik
 - Used project images for portfolio page
 
