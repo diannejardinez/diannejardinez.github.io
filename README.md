@@ -20,9 +20,9 @@ Created a professional biography/portfolio webpage by using Github Pages as a ho
 
 **Challenges**
 
-- Researching and executing how to link navigation links to sections in the same webpage(Portfolio page)
-- Researching and executing how to make a functional user submission form that is able to send messages directly to my email and notify the user that their submission was successful(Contact page)
-- Learned how to add Google Analytics code to track website traffic (Al Pages)
+- Linking navigation links to sections in the same webpage(Portfolio page)
+- Creating functional user submission form that is able to send messages directly to my email and notify the user that their submission was successful(Contact page)
+- Adding Google Analytics code to track website traffic (All Pages)
 
 
 
