@@ -4,9 +4,9 @@
 **Full Webpage url**: https://diannejardinez.github.io/Portfolio/
 
 
-**Key Takeaways**<br>
-Creating a professional biography/portfolio webpage by using Github Pages as a host!<br>
-Here are some takeaways:
+**Objective**<br>
+Created a professional biography/portfolio webpage by using Github Pages as a host!
+
 
 **Process**
 - Started with starter HTML code to customize site
