@@ -8,12 +8,14 @@
 Creating a professional biography/portfolio webpage by using Github Pages as a host!<br>
 Here are some takeaways:
 
-**Process/What went well**
+Process
 
-- Started off building my own HTML & CSS page with Bootstrap 4
-- Expanded knowledge of HTML & CSS outside of Bootstrap by learning through a template from HTML5 UP
-- Made a blueprint of the designa I wanted starting out and the finished product 
-- Found free image resources that fit the style I was aiming for through Stories by Freepik
+- Started with starter HTML code to customize site
+- Moved to a temaplate HTML code from HTML5 UP
+	- ![]()
+- Used Illustrations for home page from Stories by Freepik
+- Used project images for portfolio page
+
 
 
 **Challenges**
